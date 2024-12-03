@@ -8,7 +8,7 @@ const Skills = () => {
         { name: "SEO", bg: "bg-blue-800", tC: "text-blue-800", rank:"80"},
     ]
     return (
-        <section id="skills" className="text-justify leading-7 mt-14">
+        <section id="skills" className="text-justify leading-7 mt-4 lg:mt-24">
             <span className="text-[10px] text-gray-500 tracking-[5px]">MY SPECIALTY</span>
 
             <h2 className="text-lg  font-main tracking-[5px] mt-4 font-bold">MY SKILLS</h2>

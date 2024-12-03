@@ -23,7 +23,7 @@ const About = () => {
     
     return (
         <>
-            <section id="about" className="text-justify leading-7">
+            <section id="about" className="text-justify leading-7 mt-4 lg:mt-12">
 
                 <span className="text-[10px] text-gray-500 tracking-[5px]">ABOUT US</span>
 
