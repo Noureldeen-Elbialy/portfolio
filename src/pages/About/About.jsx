@@ -24,7 +24,6 @@ const About = () => {
     return (
         <>
             <section id="about" className="text-justify leading-7 mt-14 px-4 lg:mt-24 lg:px-48">
-
                 <span className="text-[10px] text-gray-500 tracking-[5px]">ABOUT US</span>
 
                 <h2 className="text-lg font-main tracking-[5px] mt-4 font-bold">WHO AM I?</h2>
