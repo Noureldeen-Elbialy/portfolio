@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{
+    --main-color:#60a5fa;
+}
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+.font-main{
+    font-family: "Playfair Display", serif;
+}
+
+.active{
+    color:var(--main-color);
+}
