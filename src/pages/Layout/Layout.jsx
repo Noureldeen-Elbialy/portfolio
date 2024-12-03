@@ -14,10 +14,10 @@ const Layout = () => {
                     <Aside setOpen={setOpen} />
                 </div>
 
-                <button onClick={() => setOpen(!open)} className={`lg:hidden opacity-25 hover:opacity-100 duration-500 fixed z-50 top-5 ${open ? "right-5" : "left-5"} bg-gray-100 p-2 rounded-md`}>{open ? <X /> : <AlignJustify />}</button>
+                <button onClick={() => setOpen(!open)} className={`lg:hidden opacity-25 hover:opacity-100 duration-500 fixed z-50 top-5 ${open ? "right-2" : "left-2"} bg-gray-100 p-2 rounded-md`}>{open ? <X /> : <AlignJustify />}</button>
 
 
-                <div className="col-span-6 lg:col-span-5 px-6 py-16  lg:px-48 lg:pt-12">
+                <div className="col-span-6 lg:col-span-5">
                     <Outlet />
                 </div>
             </div>

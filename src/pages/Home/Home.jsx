@@ -1,7 +1,10 @@
+// import Carsouel from "../../components/Carsouel"
+
+import Carsouel from "../../components/carsouel/Carsouel";
 const Home = () => {
     return (
-        <div>
-            <h2>home</h2>
+        <div className="w-full h-dvh bg-black ">
+            <Carsouel />
         </div>
     )
 }

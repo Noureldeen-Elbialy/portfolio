@@ -1,0 +1,12 @@
+.img1{
+    background-image: url('../../assets/project-assets/home1.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.img2{
+    background-image: url('../../assets/project-assets/home2.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}

@@ -23,7 +23,7 @@ const About = () => {
     
     return (
         <>
-            <section id="about" className="text-justify leading-7 mt-4 lg:mt-12">
+            <section id="about" className="text-justify leading-7 mt-14 px-4 lg:mt-24 lg:px-48">
 
                 <span className="text-[10px] text-gray-500 tracking-[5px]">ABOUT US</span>
 
@@ -33,7 +33,7 @@ const About = () => {
 
                 <p className="text-gray-500 mt-8">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
 
-                <div className="services grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-5">
+                <div className="services grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-24 md:gap-12 lg:gap-6 my-5">
                     {renderServices}
                 </div>
             </section>
